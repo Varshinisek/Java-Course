@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+   <body>
+      <button onclick="compareStr()">Compare Strings</button>
+      <p id="test"></p>
+      <script>
+         function compareStr() {
+            var string1 = "World";
+            var string2 = "World";
+            var result = string1.localeCompare(string2);
+
+            document.getElementById("test").innerHTML = result;
+         }
+      </script>
+   </body>
+</html>
