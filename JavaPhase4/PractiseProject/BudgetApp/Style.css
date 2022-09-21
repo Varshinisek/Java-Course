@@ -131,7 +131,12 @@ li {
 .amts-value li {
     font-size: 2.5rem;
 }
-
+h1 {
+    padding: 10px;
+    font-size: 25px;
+    background-color: rgb(222, 155, 117); 
+    color: rgb(0, 0, 0);		 
+ }	
 .clr-red {
     color: #e01616;
 }
